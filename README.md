@@ -10,6 +10,28 @@
 
 ## 2. LMs
 
+### (1) LLM OS
+
+1. Memory Management
+- 大模型上下文长度：200K tokens
+
+2. File System
+- 对话历史记录：用于长上下文对话
+- 知识库：用于学习个性化的数据和习惯
+
+3. Driver
+- Function Call：函数调用，与现有的操作系统，软件进行交互
+
+4. User Interface
+- CLI/GUI
+- 文本交互：对话式交互
+- 语音交互：自然语言交互
+- 视频交互：察言观色
+
+Reference:<br>
+https://docs.phidata.com/introduction<br>
+https://github.com/phidatahq/phidata
+
 ---
 
 ## 3. Agents
