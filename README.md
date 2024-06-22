@@ -171,4 +171,8 @@ RAG：解决语义孤立问题
 训练语料：数据标记、数据回流
 业务选择：Copilot 还是 Agent ？Single Agent 还是Multi-Agent？
 
+### Reference
+(1) https://www.53ai.com/news/qianyanjishu/1418.html
+(2) https://www.icnma.com/multi-agent-framework/
+
 ---
