@@ -60,6 +60,7 @@ paper：https://arxiv.org/abs/2312.04511?ref=blog.langchain.dev
 根据框架和实现方式的差异，这里简单将Agent框架分为两大类：Single-Agent和Multi-Agent，分别对应单智能体和多智能体架构，Multi-Agent使用多个智能体来解决更复杂的问题。
 
 1. Single-Agent Framework
+
 - BabyAGI<br>
 github：https://github.com/yoheinakajima/babyagi/<br>
 doc：https://yoheinakajima.com/birth-of-babyagi/
@@ -91,6 +92,7 @@ github：https://github.com/langchain-ai/langgraph<br>
 doc：https://python.langchain.com/docs/langgraph
 
 2. Multi-Agent Framework
+
 - 斯坦福虚拟小镇<br>
 github：https://github.com/joonspk-research/generative_agents<br>
 paper：https://arxiv.org/abs/2304.03442
@@ -132,6 +134,7 @@ github: https://github.com/camel-ai/camel<br>
 site: https://www.camel-ai.org
 
 3. Reference
+
 截止至今日，开源的Agent应用可以说是百花齐放，文章也是挑选了热度和讨论度较高的19类Agent，基本能覆盖主流的Agent框架，每个类型都做了一个简单的summary、作为一个参考供大家学习。<br>
 ![Agent Landscape](./assets/images/agent-landscape.png)
 GitHub: https://github.com/e2b-dev/awesome-ai-agents
