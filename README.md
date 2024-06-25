@@ -4,11 +4,7 @@
 
 ---
 
-## 1. AGI
-
----
-
-## 2. LMs
+## 1. LMs
 
 ### (1) LLM OS
 
@@ -32,9 +28,136 @@ Reference:<br>
 https://docs.phidata.com/introduction<br>
 https://github.com/phidatahq/phidata
 
+### (2) Multi-modal LM
+
+1. Type
+- Text
+- Voice
+- Image
+- Video
+- File
+
+2. Multi-modal LM Engine
+- GPT-4o
+
+3. Application
+- ChatGPT Desktop: https://openai.com/chatgpt/mac/
+
+### (3) Search Enhanced Generation(RAG)
+
+1. RAG流程中存在的问题
+- 多类型的文档读取
+- 文档的段落分割
+- 分割后的文档如何嵌入向量数据库
+- 对用户提出问题的处理（扩充，上下文联系）
+- 依据用户问题在数据库中的检索技术（粗排）
+- 对检索的结果进行排序Ranking（精排）
+- 提示词Prompt的设计
+- 对大模型的选择、微调
+- 对返回结果Response的检查和处理
+
+2. 对大模型的微调
+（1）SFT: supervised fine tuning(针对预训练结果来操作)
+- 专家数据（放大增强某方面能力）:告诉模型需要做的事情
+（2）Alignment: PPO/DPO
+- 用户反馈: 告诉模型不要做某些事情
+（3）成本（最主要的）
+- 业务（和问题、数据相关）
+- 问题
+- 数据
+
+3. 理解向量数据库与向量检索效率
+(1)向量检索效率O(N):取决于向量数据库的向量个数
+(2)向量相似度的计算O(d):向量之间的余弦夹角，取决于向量的维度
+(3)整个向量检索效率O(N)*O(d)：向量数据需要解决的问题
+
+4. RAG和微调的选择
+- 动态数据: RAG
+- 模型能力定制: 微调
+- 幻觉: RAG > 微调
+- 可解释性: RAG
+- 成本: RAG
+- 依赖通用能力: RAG
+- 延迟: 微调
+- 智能设备: 微调
+
+5. 微调
+- 全量微调：Model size X (~6)
+- 高效微调(PEFT)：LoRA -> Model size + 2% X 5 X Model size
+- QLoRA: Quantum LoRA -> Model size/2 + 2% X 5 X Model size (矩阵分解)
+
+6. 提示词工程 Vs RAG Vs 微调（先后顺序）
+- 问题没问清楚：提示词工程
+- 缺乏相关知识：RAG
+- 能力不足：微调
+
+### (4) Reinforcement Learning with Human Feedback(RLHF)
+
+1. Phase 1: Training
+> 使用大量数据进行预训练通用模型。
+
+2. Phase 2: SFT
+> 使用领域专家数据进行微调。
+
+3. Phase 3: Alignment
+> 利用Mentor（Reward Model）对AI的推理结果进行打分形成反馈数据，用于大模型训练和参数更新。
+
+### (5) Mixture of Experts(MoE)
+
+1. Sparse
+> Token进入模型后，经过Router只激活少数相关性高的专家模型。
+
+2. Diverse
+> 训练多个专家模型，每个模型都有自己的能力和特长，从而体现特殊性和差异性。
+
+3. 合理分配
+> 针对不同用户接入大模型，需要对专家模型的资源进行合理地分配，以最大化地利用模型的能力解决问题。
+
+### (6) Self-Attention
+
+> 对序列中的Token分别加权更新，从而使每个Token更接近序列中的含义。句子序列中Token的个数为n，进行推理的计算成本为N^2，随着句子序列长度的增加推理的计算成本会变的非常大，因此Transformer的这个问题需要解决，目前比较火的用于解决该问题的为mamba架构。
+
+### (7) Large Model(LM) deployed on Cloud Server
+
+1. 服务器选择
+- Alibaba Cloud
+- Amazon Cloud
+- Google Cloud
+- Microsoft Cloud
+- Oracle Cloud
+- Tencent Cloud
+
+2. 安装系统
+
+3. 安装依赖
+
+4. 安装Ollama
+
+5. 安装docker及OpenWeb UI
+
+6. 安装ngrok
+
+7. 配置agent
+
+8. 运行测试
+
+### (8) Large Model(LM) deployed on Local Host
+
+1. 安装并运行Ollama
+- 前往Ollama官方网站（https://ollama.com/）下载所需要系统版本的Ollama应用；
+- 在系统命令行终端中运行：ollama run llama3(你所需要的LLM，可供选择的LLM参考https://ollama.com/library)
+
+2. 安装并启用OpenWeb UI
+
+3. 安装内网穿透工具ngrok用于端侧访问
+
+4. 安装并构造本地RAG知识库
+
+5. 赋予大模型在线联网搜索能力
+
 ---
 
-## 3. Agents
+## 2. Agents
 
 ### (1) Agent基础
 
@@ -219,5 +342,9 @@ RAG：解决语义孤立问题<br>
 ### Reference
 (1) https://www.53ai.com/news/qianyanjishu/1418.html<br>
 (2) https://www.icnma.com/multi-agent-framework/
+
+---
+
+## 3. AGI
 
 ---
