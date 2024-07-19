@@ -236,6 +236,14 @@ doc：https://os-copilot.github.io/
 github：https://github.com/langchain-ai/langgraph<br>
 doc：https://python.langchain.com/docs/langgraph
 
+- FlowiseAI<br>
+github：https://github.com/FlowiseAI/Flowise<br>
+doc：https://docs.flowiseai.com/
+
+- Dify<br>
+github：https://github.com/langgenius/dify<br>
+doc：https://docs.dify.ai/
+
 2. Multi-Agent Framework
 
 - 斯坦福虚拟小镇<br>
@@ -270,6 +278,10 @@ github：https://github.com/microsoft/UFO
 - CrewAI<br>
 github: https://github.com/joaomdmoura/crewAI<br>
 site: https://www.crewai.com/
+
+- MemGPT<br>
+github: https://github.com/cpacker/MemGPT<br>
+site: https://memgpt.ai/
 
 - AgentScope<br>
 github: https://github.com/modelscope/agentscope/blob/main/README_ZH.md
