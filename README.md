@@ -358,7 +358,15 @@ github: https://github.com/modelscope/agentscope/blob/main/README_ZH.md
 github: https://github.com/camel-ai/camel<br>
 site: https://www.camel-ai.org
 
-3. Reference
+3. Heterogeneous Distributed-Agent framework
+
+- cake<br>
+github: https://github.com/evilsocket/cake
+
+- exo<br>
+github: https://github.com/exo-explore/exo
+
+4. Reference
 
 截止至今日，开源的Agent应用可以说是百花齐放，文章也是挑选了热度和讨论度较高的19类Agent，基本能覆盖主流的Agent框架，每个类型都做了一个简单的summary、作为一个参考供大家学习。<br>
 ![Agent Landscape](./assets/images/agent-landscape.png)
