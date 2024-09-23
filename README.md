@@ -25,8 +25,8 @@
 - 视频交互：察言观色
 
 Reference:<br>
-https://docs.phidata.com/introduction<br>
-https://github.com/phidatahq/phidata
+<https://docs.phidata.com/introduction><br>
+<https://github.com/phidatahq/phidata>
 
 ### (2) Multi-modal LM
 
@@ -41,7 +41,7 @@ https://github.com/phidatahq/phidata
 - GPT-4o
 
 3. Application
-- ChatGPT Desktop: https://openai.com/chatgpt/mac/
+- ChatGPT Desktop: <https://openai.com/chatgpt/mac/>
 
 ### (3) Search Enhanced Generation(RAG)
 
@@ -123,8 +123,8 @@ https://github.com/phidatahq/phidata
 > ![CO-STAR Framework](https://github.com/JadeCong/Resources/blob/master/Pictures/Doc_Images/Gist/CO-STAR%20Framework.png)
 >
 > **Reference:**
->> (1) https://www.jackyshen.com/<br>
->> (2) https://medium.com/@frugalzentennial/unlocking-the-power-of-costar-prompt-engineering-a-guide-and-example-on-converting-goals-into-dc5751ce9875
+>> (1) <https://www.jackyshen.com/><br>
+>> (2) <https://medium.com/@frugalzentennial/unlocking-the-power-of-costar-prompt-engineering-a-guide-and-example-on-converting-goals-into-dc5751ce9875>
 
 #### 1. Context (C)
 
@@ -212,8 +212,8 @@ If you understand, ask me for my goals.
 ### (9) Large Model(LM) deployed on Local Host
 
 1. 安装并运行Ollama
-- 前往Ollama官方网站（https://ollama.com/）下载所需要系统版本的Ollama应用；
-- 在系统命令行终端中运行：ollama run llama3(你所需要的LLM，可供选择的LLM参考https://ollama.com/library)
+- 前往Ollama官方网站（<https://ollama.com/>）下载所需要系统版本的Ollama应用；
+- 在系统命令行终端中运行：ollama run llama3(你所需要的LLM，可供选择的LLM参考<https://ollama.com/library>)
 
 2. 安装并启用OpenWeb UI
 
@@ -261,7 +261,7 @@ ReAct=少样本prompt + Thought + Action + Observation 。是调用工具、推�
 优点是对于解决复杂任务、需要调用多个工具时，也只需要调用三次大模型，而不是每次工具调用都要调大模型。
 ![BabyAgi](./assets/images/baby-agi.jpeg)
 LLmCompiler：并行执行任务，规划时生成一个DAG图来执行action，可以理解成将多个工具聚合成一个工具执行图，用图的方式执行某一个action。<br>
-paper：https://arxiv.org/abs/2312.04511?ref=blog.langchain.dev
+paper：<https://arxiv.org/abs/2312.04511?ref=blog.langchain.dev>
 ![LLmCompiler](./assets/images/llm-compiler.png)
 
 3. 框架对比
@@ -275,102 +275,102 @@ paper：https://arxiv.org/abs/2312.04511?ref=blog.langchain.dev
 1. Single-Agent Framework
 
 - BabyAGI<br>
-github：https://github.com/yoheinakajima/babyagi/<br>
-doc：https://yoheinakajima.com/birth-of-babyagi/
+github：<https://github.com/yoheinakajima/babyagi/><br>
+doc：<https://yoheinakajima.com/birth-of-babyagi/>
 
 - AutoGPT<br>
-github：https://github.com/Significant-Gravitas/AutoGPT
+github：<https://github.com/Significant-Gravitas/AutoGPT>
 
 - HuggingGPT<br>
-github: https://github.com/microsoft/JARVIS<br>
-paper: https://arxiv.org/abs/2303.17580
+github: <https://github.com/microsoft/JARVIS><br>
+paper: <https://arxiv.org/abs/2303.17580>
 
 - GPT-Engineer<br>
-github: https://github.com/AntonOsika/gpt-engineer
+github: <https://github.com/AntonOsika/gpt-engineer>
 
 - Samantha<br>
-github: https://github.com/BRlkl/AGI-Samantha<br>
-twitter: https://twitter.com/Schindler___/status/1745986132737769573
+github: <https://github.com/BRlkl/AGI-Samantha><br>
+twitter: <https://twitter.com/Schindler___/status/1745986132737769573>
 
 - AppAgent<br>
-github：https://github.com/X-PLUG/MobileAgent<br>
-doc：https://appagent-official.github.io/
+github：<https://github.com/X-PLUG/MobileAgent><br>
+doc：<https://appagent-official.github.io/>
 
 - OS-Copilot<br>
-github：https://github.com/OS-Copilot/FRIDAY<br>
-doc：https://os-copilot.github.io/
+github：<https://github.com/OS-Copilot/FRIDAY><br>
+doc：<https://os-copilot.github.io/>
 
 - LangGraph<br>
-github：https://github.com/langchain-ai/langgraph<br>
-doc：https://python.langchain.com/docs/langgraph
+github：<https://github.com/langchain-ai/langgraph><br>
+doc：<https://python.langchain.com/docs/langgraph>
 
 - FlowiseAI<br>
-github：https://github.com/FlowiseAI/Flowise<br>
-doc：https://docs.flowiseai.com/
+github：https://github.com/FlowiseAI/Flowise><br>
+doc：<https://docs.flowiseai.com/>
 
 - Dify<br>
-github：https://github.com/langgenius/dify<br>
+github：<https://github.com/langgenius/dify<br>
 doc：https://docs.dify.ai/
 
 2. Multi-Agent Framework
 
 - 斯坦福虚拟小镇<br>
-github：https://github.com/joonspk-research/generative_agents<br>
-paper：https://arxiv.org/abs/2304.03442
+github：<https://github.com/joonspk-research/generative_agents><br>
+paper：<https://arxiv.org/abs/2304.03442>
 
 - MetaGPT<br>
-github：https://github.com/geekan/MetaGPT<br>
-doc：https://docs.deepwisdom.ai/main/zh/guide/get_started/introduction.html
+github：<https://github.com/geekan/MetaGPT><br>
+doc：<https://docs.deepwisdom.ai/main/zh/guide/get_started/introduction.html>
 
 - AutoGen<br>
-github：https://github.com/microsoft/autogen<br>
-doc：https://microsoft.github.io/autogen/docs/Getting-Started
+github：<https://github.com/microsoft/autogen><br>
+doc：<https://microsoft.github.io/autogen/docs/Getting-Started>
 
 - ChatDEV<br>
 github：https://github.com/OpenBMB/ChatDev<br>
-doc：https://chatdev.modelbest.cn/introduce
+doc：<https://chatdev.modelbest.cn/introduce>
 
 - GPTeam<br>
-github：https://github.com/101dotxyz/GPTeam
+github：<https://github.com/101dotxyz/GPTeam>
 
 - GPT Researcher<br>
-github：https://github.com/assafelovic/gpt-researcher
+github：<https://github.com/assafelovic/gpt-researcher>
 
 - TaskWeaver<br>
-github：https://github.com/microsoft/TaskWeaver?tab=readme-ov-file<br>
-doc：https://microsoft.github.io/TaskWeaver/docs/overview
+github：<https://github.com/microsoft/TaskWeaver?tab=readme-ov-file><br>
+doc：<https://microsoft.github.io/TaskWeaver/docs/overview>
 
 - Microsoft UFO<br>
-github：https://github.com/microsoft/UFO
+github：<https://github.com/microsoft/UFO>
 
 - CrewAI<br>
-github: https://github.com/joaomdmoura/crewAI<br>
-site: https://www.crewai.com/
+github: <https://github.com/joaomdmoura/crewAI><br>
+site: <https://www.crewai.com/>
 
 - MemGPT<br>
-github: https://github.com/cpacker/MemGPT<br>
-site: https://memgpt.ai/
+github: <https://github.com/cpacker/MemGPT><br>
+site: <https://memgpt.ai/>
 
 - AgentScope<br>
-github: https://github.com/modelscope/agentscope/blob/main/README_ZH.md
+github: <https://github.com/modelscope/agentscope/blob/main/README_ZH.md>
 
 - Camel<br>
-github: https://github.com/camel-ai/camel<br>
-site: https://www.camel-ai.org
+github: <https://github.com/camel-ai/camel><br>
+site: <https://www.camel-ai.org>
 
 3. Heterogeneous Distributed-Agent framework
 
 - cake<br>
-github: https://github.com/evilsocket/cake
+github: <https://github.com/evilsocket/cake>
 
 - exo<br>
-github: https://github.com/exo-explore/exo
+github: <https://github.com/exo-explore/exo>
 
 4. Reference
 
 截止至今日，开源的Agent应用可以说是百花齐放，文章也是挑选了热度和讨论度较高的19类Agent，基本能覆盖主流的Agent框架，每个类型都做了一个简单的summary、作为一个参考供大家学习。<br>
 ![Agent Landscape](./assets/images/agent-landscape.png)
-GitHub: https://github.com/e2b-dev/awesome-ai-agents
+GitHub: <https://github.com/e2b-dev/awesome-ai-agents>
 
 ### (4) Agent框架总结
 
@@ -428,8 +428,8 @@ RAG：解决语义孤立问题<br>
 业务选择：Copilot 还是 Agent ？Single Agent 还是Multi-Agent？<br>
 
 ### Reference
-(1) https://www.53ai.com/news/qianyanjishu/1418.html<br>
-(2) https://www.icnma.com/multi-agent-framework/
+(1) <https://www.53ai.com/news/qianyanjishu/1418.html><br>
+(2) <https://www.icnma.com/multi-agent-framework/>
 
 ---
 
@@ -478,7 +478,7 @@ RAG：解决语义孤立问题<br>
 >
 > 目前：
 >
-> [https://mp.weixin.qq.com/s?__biz=MTM2ODM0ODYyMQ==&mid=2651452469&idx=4&sn=8842564074dc8b8647f11a36012b4a7c&chksm=624df497553a7d810a47b8de68675025cb656a6bce722200d54e279216977ea1d7ead5c6f82d&scene=0&xtrack=1#rd]
+> <https://mp.weixin.qq.com/s?__biz=MTM2ODM0ODYyMQ==&mid=2651452469&idx=4&sn=8842564074dc8b8647f11a36012b4a7c&chksm=624df497553a7d810a47b8de68675025cb656a6bce722200d54e279216977ea1d7ead5c6f82d&scene=0&xtrack=1#rd>
 >
 > Episodic Deep-RL(通过情景记忆进行快速学习)：保留过去事件的明确记录，并直接将此记录用作指定新决策的参考点。这个Episodic RL的观点与机器学习中的非参数方法相似，类似于心理学理论中的[基于实例]或[基于样本]。
 >>
@@ -654,7 +654,7 @@ RL算法可以分为基于模型的方法（Model-based）与免模型的方法�
 
 > Meta Learning：参照人类的价值观决定，让AI在学习各种任务后形成一个核心的价值网络，从而面对新的任务时，可以利用已有的核心价值网络来加速AI的学习速度。
 >
-> 在元学习过程中，模型在元训练集中学习不同的任务。在该过程中存在两种优化：学习新任务的学习者（optimizee）和训练学习者的元学习者（optimizer）。元学习方法通常属于下面三个范畴中的一个：（1）模型循环（recurrent model）；（2）度量学习（metric learning）；（3）学习优化器（learning optimizer）。
+> 在元学习过程中，模型在元训练集中学习不同的任务。在该过程中存在两种优化：学习新任务的学习者（optimize）和训练学习者的元学习者（optimizer）。元学习方法通常属于下面三个范畴中的一个：（1）模型循环（recurrent model）；（2）度量学习（metric learning）；（3）学习优化器（learning optimizer）。
 >
 > Meta-Critic Network：每一个训练任务我们都构造了一个行动网络（Actor Network）， 但是我们只有一个核心指导网络（Meta-Critic Network），这个网络包含两部分：一个是核心价值网络（Meta Value Network），另一个则是任务行为编码器（Task-Actor Encoder）。我们用多个任务同时训练这个Meta Critic Network。训练方式可以时常见的Actor-Critic。训练时最关键的时Task-Actor Encoder，我们输入任务的历史经验（包括状态state，动作action，和回报reward），然后得到一个任务的表示信息z，将z和一般价值网络的输入（状态state和动作action）连接起来，输入到Meta Value Network中。
 
